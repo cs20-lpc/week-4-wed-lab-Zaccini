@@ -108,7 +108,7 @@ void LinkedList<T>::insert(int position, const T& elem) {
         head = n;
     }
     else {
-        Node*perv = head;
+        Node *prev = head;
         for (int i = 0; i < position - 1; i++){
             prev = prev->next;
         }
